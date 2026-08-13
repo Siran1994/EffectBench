@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f50f5a11bdf9c148accca971bd8a957, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  CompanyName: Gnetop
+  AppName: Test
+  ChannelName: GooglePaly
+  VersionNum: 1.0.0
+  BundleVersionNum: 1
+  PackageName: com.lioncel.Test
+  isSetImg: 0
+  isSetScreenLogo: 0
+  islockFPS: 1
+  isRelease: 0
+  is32: 0
+  isBuildAab: 0
+  isOnlyBuild: 1
+  PT: 0
+  LocalExe:
+  - ExeName: OSS
+    ExeLocalPath: D:\oss-browser-win32-x64\oss-browser.exe
+  - ExeName: COS
+    ExeLocalPath: D:\cosbrowser\cosbrowser.exe
+  - ExeName: OBS
+    ExeLocalPath: D:\obs_browserplus\obs-browser-plus.exe
+  - ExeName: Google
+    ExeLocalPath: C:\Program Files\Google\Chrome\Application\chrome.exe
+  - ExeName: "\u6709\u9053\u7FFB\u8BD1"
+    ExeLocalPath: D:\Youdao\Dict\YoudaoDict.exe
+  - ExeName: "\u6BD4\u5FC3\u4E91"
+    ExeLocalPath: "D:\\bixinyun\\\u6BD4\u5FC3\u4E91.exe"
+  - ExeName: CherryAi
+    ExeLocalPath: D:\CherryStudio\Cherry Studio\Cherry Studio.exe
+  - ExeName: UnityHub
+    ExeLocalPath: D:\Unity Hub\Unity Hub.exe
+  - ExeName: GitHub
+    ExeLocalPath: C:\Users\CY\AppData\Local\GitHubDesktop\GitHubDesktop.exe
+  - ExeName: AndroidStudio
+    ExeLocalPath: D:\AndroidStudio\bin\studio64.exe
+  SDKPath:
+  - SDKName: AndroidSDK
+    SdkPath: D:\AndroidPlayer\SDK
+  - SDKName: NDK
+    SdkPath: D:\AndroidPlayer\NDK
+  - SDKName: JDK
+    SdkPath: D:\AndroidPlayer\JDK
+  TexAsset:
+  - {fileID: 2800000, guid: f8e0bcb3d8f40714ca968cedea983afc, type: 3}
+  - {fileID: 2800000, guid: 674f4db021cf9764eb9bf591893c7d4b, type: 3}
+  - {fileID: 2800000, guid: 8ae0106161ea5d9459c143c35554c23a, type: 3}
+  - {fileID: 2800000, guid: 8c1bcc80fcf0690459507fd172f07f91, type: 3}
+  KeyName: Key.jks
+  KeyPassWord: 123456
